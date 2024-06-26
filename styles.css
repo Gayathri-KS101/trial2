@@ -236,6 +236,26 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+
+@media (max-width: 767px){
+    #Alight p{
+        text-align: center;
+    }
+    #Alight strong {
+        font-size: 40px; /* Adjust font size for smaller screens */
+        margin: 5px 0; /* Adjust margin for spacing */}
+    #Alight img {
+        width: 100%; /* Make the image responsive */
+        height: auto;
+        display: block;
+        margin: 10px auto; /* Center align with some margin */
+        max-width: 100%;
+    }
+
+}
+
+
 #lightroom p {
     text-align: center;
 }
